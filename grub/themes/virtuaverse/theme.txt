@@ -4,6 +4,7 @@
 title-text: ""
 desktop-image: "background.png"
 terminal-box: "terminal_box_*.png"
+terminal-font: "Terminus Regular 14"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
@@ -16,7 +17,7 @@ terminal-border: "0"
   top = 37%
   width = 34%
   height = 27%
-  item_font = "Victor's Pixel Font Regular 32"
+  item_font = "Victor's Pixel Font Regular 24"
   item_color = "#ffffff"
   selected_item_color = "#e6d38a"
   item_spacing = 0
@@ -24,3 +25,14 @@ terminal-border: "0"
   item_icon_space = 0
 }
 
+# Show a countdown message using the label component
+ + label {
+   top = 82%
+   left = 32%
+   width = 30%
+   align = "center"
+   id = "__timeout__"
+   text = "Booting in %d seconds"
+   color = "#cccccc"
+   font = "Victor's Pixel Font Regular 24"
+ }
