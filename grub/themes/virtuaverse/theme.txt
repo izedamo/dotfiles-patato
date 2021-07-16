@@ -19,7 +19,8 @@ terminal-border: "0"
   height = 27%
   item_font = "Victor's Pixel Font Regular 24"
   item_color = "#ffffff"
-  selected_item_color = "#e6d38a"
+  #selected_item_color = "#e6d38a"
+  selected_item_color = "#50fa7b"
   item_spacing = 0
   icon_width = 0
   item_icon_space = 0
